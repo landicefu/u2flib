@@ -10,12 +10,12 @@ public class Token {
         this.hidDevice = hidDevice;
     }
 
-    public String getInfo() {
+    @Override
+    public String toString() {
         return String.format("manufacturer = \"%s\", product = \"%s\", vid = 0x%04X, pid = 0x%04X",
                 hidDevice.getManufacturer(),
                 hidDevice.getProduct(),
                 hidDevice.getVendorId(),
                 hidDevice.getProductId());
     }
-
 }

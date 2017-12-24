@@ -13,7 +13,7 @@ public class TokenManagerTest {
             System.out.println("no token was found");
         } else {
             for (int i = 0 ; i < tokenList.size() ; i++) {
-                System.out.println(String.format("[%2d] %s", i, tokenList.get(i).getInfo()));
+                System.out.println(String.format("[%2d] %s", i, tokenList.get(i)));
             }
         }
     }

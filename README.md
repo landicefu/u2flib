@@ -2,7 +2,7 @@
 A Java library for accessing FIDO U2F USB tokens for app registration, challenge signing and signature verification.
 
 This library is based on [hid4java](https://github.com/gary-rowe/hid4java) for USB HID access and
- it is ported from [u2f](https://github.com/flynn/u2f) and [u2fcli] (https://github.com/mdp/u2fcli)
+ it is ported from [u2f](https://github.com/flynn/u2f) and [u2fcli](https://github.com/mdp/u2fcli)
 
 
 ### How FIDO U2F Works

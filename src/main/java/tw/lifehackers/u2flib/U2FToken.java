@@ -2,11 +2,11 @@ package tw.lifehackers.u2flib;
 
 import org.hid4java.HidDevice;
 
-public class Token {
+public class U2FToken {
 
     private final HidDevice hidDevice;
 
-    public Token(HidDevice hidDevice) {
+    public U2FToken(HidDevice hidDevice) {
         this.hidDevice = hidDevice;
     }
 
